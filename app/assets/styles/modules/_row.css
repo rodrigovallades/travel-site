@@ -10,6 +10,14 @@
     }
   }
 
+  &--gutted-large {
+    margin-right: -100px;
+
+    > div {
+      padding-right: 100px;
+    }
+  }
+
   &__column {
     float: left;
 
@@ -29,6 +37,10 @@
 
       &--medium-8-smaller {
         width: 63%;
+      }
+
+      &--medium-6 {
+        width: 50%;
       }
 
     }
